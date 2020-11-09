@@ -1,0 +1,15 @@
+.tim-bay {
+  font-size: 30px;
+  transition: all .3s ease-out;
+  animation: fly 1.5s ease-out;
+  cursor: default;
+  }
+   
+@keyframes fly {
+  to {
+    transform: translateY(-120px);
+    font-size: 48px;
+    opacity: 0;
+  }
+}
+   
